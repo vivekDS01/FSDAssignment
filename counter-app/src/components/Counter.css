@@ -1,0 +1,42 @@
+.counter {
+  width: 280px;
+  margin: 60px auto;
+  padding: 24px;
+  background: #fff;
+  border: 1px solid #cfd7df;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.counter h1 {
+  margin: 0 0 8px;
+  font-size: 1.3rem;
+}
+
+.value {
+  margin: 12px 0 20px;
+  font-size: 3.5rem;
+  font-weight: 600;
+  color: #1b2430;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.buttons button {
+  flex: 1;
+  padding: 10px 0;
+  font-size: 1.1rem;
+  border: 0;
+  border-radius: 6px;
+  background: #1f5f8b;
+  color: #fff;
+  cursor: pointer;
+}
+
+.buttons .reset {
+  background: #5d6b7a;
+}
