@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Function Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>Calculator</h1>
+    <label for="num1">First number</label>
+    <input id="num1" type="number" step="any" value="12">
+
+    <label for="op">Operation</label>
+    <select id="op">
+      <option value="+">Addition (+)</option>
+      <option value="-">Subtraction (-)</option>
+      <option value="*">Multiplication (×)</option>
+      <option value="/">Division (÷)</option>
+    </select>
+
+    <label for="num2">Second number</label>
+    <input id="num2" type="number" step="any" value="4">
+
+    <button id="calc">Calculate</button>
+    <div id="result"></div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
