@@ -1,0 +1,28 @@
+.card {
+  width: 260px;
+  padding: 24px;
+  background: #ffffff;
+  border: 1px solid #cfd7df;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.avatar {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #1f5f8b;
+}
+
+.name {
+  margin: 14px 0 6px;
+  font-size: 1.2rem;
+  color: #1b2430;
+}
+
+.description {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #5d6b7a;
+}
