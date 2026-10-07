@@ -37,7 +37,7 @@ jobs:
         run: |
           mkdir site
           cp index.html site/
-          cp -r calculator To-do-list Form-Validation site/
+          cp -r calculator To-do-list FormValidation site/
           for app in profile-card controlled-form counter-app; do
             cp -r $app/dist site/$app
           done
