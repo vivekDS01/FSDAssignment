@@ -1,0 +1,12 @@
+body { font-family: system-ui, sans-serif; background: #eef1f4; display: flex; justify-content: center; padding: 24px; margin: 0; }
+main { background: #fff; border: 1px solid #cfd7df; border-radius: 12px; padding: 24px; width: 100%; max-width: 420px; height: fit-content; }
+h1 { margin: 0 0 16px; font-size: 1.4rem; }
+.add-row { display: flex; gap: 8px; }
+input { flex: 1; padding: 10px; font-size: 1rem; border: 1px solid #cfd7df; border-radius: 6px; }
+button { padding: 10px 14px; font-size: .95rem; border: 0; border-radius: 6px; background: #1f5f8b; color: #fff; cursor: pointer; }
+#message { color: #b3261e; font-size: .85rem; min-height: 1.2em; margin: 8px 0; }
+ul { list-style: none; padding: 0; margin: 0; }
+li { display: flex; align-items: center; gap: 10px; padding: 10px 0; border-bottom: 1px solid #e3e8ed; }
+li span { flex: 1; word-break: break-word; }
+li.completed span { text-decoration: line-through; color: #8a97a5; }
+li button.delete { background: #b3261e; padding: 6px 10px; font-size: .8rem; }
