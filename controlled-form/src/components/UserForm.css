@@ -1,0 +1,74 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 420px;
+  margin: 0 auto;
+  padding: 24px 16px;
+}
+
+.form,
+.preview {
+  background: #fff;
+  border: 1px solid #cfd7df;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+h2 {
+  margin: 0 0 12px;
+  font-size: 1.2rem;
+}
+
+.form label {
+  display: block;
+  margin: 12px 0 4px;
+  font-size: 0.85rem;
+}
+
+.form input[type="text"],
+.form input[type="email"],
+.form input[type="number"],
+.form select,
+.form textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #cfd7df;
+  border-radius: 6px;
+  font-family: inherit;
+}
+
+.radio-row {
+  display: flex;
+  gap: 16px;
+}
+
+.radio-row label,
+.form .check {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin: 0;
+}
+
+.form .check {
+  margin-top: 14px;
+}
+
+.form button {
+  margin-top: 16px;
+  padding: 10px 14px;
+  font-size: 0.95rem;
+  border: 0;
+  border-radius: 6px;
+  background: #1f5f8b;
+  color: #fff;
+  cursor: pointer;
+}
+
+.preview p {
+  margin: 6px 0;
+  word-break: break-word;
+}
