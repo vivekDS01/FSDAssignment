@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>Create an account</h1>
+    <form id="regForm" novalidate>
+
+      <label for="name">Full name</label>
+      <input id="name" type="text" autocomplete="off">
+      <small class="error" id="nameError"></small>
+
+      <label for="email">Email</label>
+      <input id="email" type="email" autocomplete="off">
+      <small class="error" id="emailError"></small>
+
+      <label for="phone">Phone number</label>
+      <input id="phone" type="tel" autocomplete="off" placeholder="10 digits">
+      <small class="error" id="phoneError"></small>
+
+      <label for="password">Password</label>
+      <input id="password" type="password">
+      <small class="error" id="passwordError"></small>
+
+      <label for="confirm">Confirm password</label>
+      <input id="confirm" type="password">
+      <small class="error" id="confirmError"></small>
+
+      <button type="submit">Register</button>
+      <p id="success"></p>
+    </form>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
